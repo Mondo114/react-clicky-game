@@ -7,7 +7,7 @@ import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = "Click on an image to earn points, but don't click on any of them more than once!";
+let clickMessage = "Welcome to the shindig! Click a character to earn points. Remember which character you selected because if you pick the same character twice, you'll lose all your points. To win the game, earn 12 points.";
 
 class App extends Component {
     
@@ -35,7 +35,7 @@ class App extends Component {
             console.log ("Best Score: " + bestScore);
 
             correctGuesses = 0;
-            clickMessage = "Dang! You already clicked on that one! Now you have to start over!"
+            clickMessage = "Gorram! You ran afoul and clicked the same character again! Now you'll have to start over."
 
             for (let i = 0 ; i < matches.length ; i++){
                 matches[i].clicked = false;
@@ -54,7 +54,7 @@ class App extends Component {
             // increment the appropriate counter
             correctGuesses++;
             
-            clickMessage = "Great! You haven't click on that one yet! Keep going!";
+            clickMessage = "Shiny! You hadn't clicked that one yet, keep flyin'!";
 
             if (correctGuesses > bestScore){
                 bestScore = correctGuesses;
@@ -77,7 +77,7 @@ class App extends Component {
             correctGuesses = 0;
 
             // Egg on the user to play again
-            clickMessage = "WOW!!! You got ALL of them!!! Now, let's see if you can do it again!";
+            clickMessage = "Goa Guhn you won! You did a bang up job and got every one them!";
             bestScore = 12;
             this.setState({ bestScore });
             
@@ -99,13 +99,13 @@ class App extends Component {
     render() {
         return (
             <Wrapper>
-                <Title>To boldly click where no one has clicked before!</Title>
+                <Title><div id="title-div"><span id="title-words">Firefly: Remember the Serenity</span></div></Title>
         
-                <h3 className="scoreSummary">
+                <h3 className="scoreSummary instructions">
                     {this.state.clickMessage}
                 </h3>
                 
-                <h3 className="scoreSummary">
+                <h3 className="scoreSummary counter">
                     Correct Guesses: {this.state.correctGuesses} 
                     <br />
                     Best Score: {this.state.bestScore} 

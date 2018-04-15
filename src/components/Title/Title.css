@@ -1,5 +1,24 @@
-.title {
-  width: 100%;
+#title-div {
   text-align: center;
-  color: black;
+  font-family: 'Marcellus SC', serif;
+  font-size: 80px;
+  text-shadow: 2px 2px 2px white;
+  background-image: url("./plating.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: 3px solid black;
 }
+
+#title-words {
+  text-align: center;
+  color: rgb(87, 15, 6);
+  font-family: 'Marcellus SC', serif;
+  font-size: 80px;
+  margin-top: 50px;
+  text-shadow: 2px 2px 1px black;
+}
+

@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "image": "./assets/images/Andorian.jpg",
+    "image": "./assets/images/badger.jpg",
     "clicked": false
   },
   {
     "id": 2,
-    "image": "./assets/images/Balok.jpg",
+    "image": "./assets/images/book.jpg",
     "clicked": false
   },
   {
     "id": 3,
-    "image": "./assets/images/Gorn.jpg",
+    "image": "./assets/images/inara.jpg",
     "clicked": false
   },
   {
     "id": 4,
-    "image": "./assets/images/Keeper.jpg",
+    "image": "./assets/images/jayne.jpg",
     "clicked": false
   },
   {
     "id": 5,
-    "image": "./assets/images/Melkotion.jpg",
+    "image": "./assets/images/kaylee.jpg",
     "clicked": false
   },
   {
     "id": 6,
-    "image": "./assets/images/Vina.jpg",
+    "image": "./assets/images/mal.jpg",
     "clicked": false
   },
   {
     "id": 7,
-    "image": "./assets/images/obedience.jpg",
+    "image": "./assets/images/nandi.jpg",
     "clicked": false
   },
   {
     "id": 8,
-    "image": "./assets/images/Ruk.jpg",
+    "image": "./assets/images/river.jpg",
     "clicked": false
   },
   {
     "id": 9,
-    "image": "./assets/images/Scotty.jpg",
+    "image": "./assets/images/saffron.png",
     "clicked": false
   },
   {
     "id": 10,
-    "image": "./assets/images/Kor.jpg",
+    "image": "./assets/images/simon.jpg",
     "clicked": false
   },
   {
     "id": 11,
-    "image": "./assets/images/Spock-Good.jpg",
+    "image": "./assets/images/wash.jpg",
     "clicked": false
   },
   {
     "id": 12,
-    "image": "./assets/images/Uhura.jpg",
+    "image": "./assets/images/zoe.jpg",
     "clicked": false
   }
 ]
