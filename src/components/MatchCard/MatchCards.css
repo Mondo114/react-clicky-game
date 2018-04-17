@@ -4,14 +4,6 @@
   border-radius: 10px;
   background-color: black;
 }
-/* 
-.card:active {
-  margin: 20px;
-  width: 200px;
-  border-radius: 10px;
-  background-color: black;
-  transform: translateY(4px);
-} */
 
 .card > .img-container {
   /* border-radius: 10px; */

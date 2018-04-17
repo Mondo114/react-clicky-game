@@ -77,7 +77,7 @@ class App extends Component {
             correctGuesses = 0;
 
             // Egg on the user to play again
-            clickMessage = "Goa Guhn you won! You did a bang up job and got every one them!";
+            clickMessage = "Goa Guhn you won! You did a bang up job and got every one of them!";
             bestScore = 12;
             this.setState({ bestScore });
             
