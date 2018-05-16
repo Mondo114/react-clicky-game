@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MatchCard from "./components/MatchCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Footer from "./components/Footer";
 import matches from "./matchcards.json";
 import "./App.css";
 
@@ -98,6 +99,7 @@ class App extends Component {
 
     render() {
         return (
+            <div>
             <Wrapper>
                 <Title><div id="title-div"><span id="title-words">Firefly: Remember the Serenity</span></div></Title>
         
@@ -120,6 +122,10 @@ class App extends Component {
                     />
                 ))}
             </Wrapper>
+            <Footer>
+                <div id="footer-div"><span id="footer-words">Created 2018, Brenton Jenkins</span></div>
+            </Footer>
+            </div>
         );
     }
 }
