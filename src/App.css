@@ -7,7 +7,6 @@ html, body, #root {
   padding: 0;
   margin: 0;
   height: 100%;
-  
   background-image: url("./brown.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -38,6 +37,7 @@ html, body, #root {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+  border: 1px solid silver;
 }
 
 /* Handle */
@@ -47,7 +47,7 @@ html, body, #root {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  border: 2px solid black;
+  border: 1px solid silver;
 }
 
 /* Handle on hover */
@@ -56,8 +56,7 @@ html, body, #root {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid black;
-  opacity: 1.2;
+  border: 2px solid silver;
 }
 
 /* Handle on active */
@@ -66,5 +65,5 @@ html, body, #root {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border: 2px solid black;
+  border: 3px solid silver;
 }
