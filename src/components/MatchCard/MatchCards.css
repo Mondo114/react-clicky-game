@@ -1,12 +1,20 @@
 .card {
   margin: 20px;
   width: 200px;
-  border-radius: 10px;
+  border-radius: 12px;
   background-color: black;
+  border: 3px solid silver;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.8), 0 17px 50px 0 rgba(0, 0, 0, 0.8);
 }
 
-.card > .img-container {
-  /* border-radius: 10px; */
+.card:hover {
+  box-shadow: 0 12px 16px 0 rgb(248, 98, 38), 0 17px 50px 0 rgb(248, 98, 38);
+  cursor: pointer;
+}
+
+.card:active {
+  box-shadow: 0 12px 16px 0 rgba(175, 44, 4, 0.8), 0 17px 50px 0 rgba(175, 44, 4, 0.8);
+  cursor: pointer;
 }
 
 .card > .img-container > img {
@@ -16,28 +24,5 @@
 	margin-right: auto;
   display: block;
   border-radius: 10px;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.8), 0 17px 50px 0 rgba(0, 0, 0, 0.8);
   border: 3px solid black;
-}
-
-.card > .img-container > img:hover {
-  height: 100%;
-  width: 100%;
-  margin-left: auto;
-	margin-right: auto;
-  display: block;
-  border-radius: 10px;
-  box-shadow: 0 12px 16px 0 rgb(248, 98, 38), 0 17px 50px 0 rgb(248, 98, 38);
-  cursor: pointer;
-}
-
-.card > .img-container > img:active {
-  height: 100%;
-  width: 100%;
-  margin-left: auto;
-	margin-right: auto;
-  display: block;
-  border-radius: 10px;
-  box-shadow: 0 12px 16px 0 rgba(175, 44, 4, 0.8), 0 17px 50px 0 rgba(175, 44, 4, 0.8);
-  cursor: pointer;
 }
