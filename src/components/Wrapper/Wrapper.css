@@ -1,5 +1,4 @@
 .wrapper {
-  padding-top: 50px;
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -39,4 +38,10 @@
   border-bottom-right-radius: 10px;
   border-right: 2px solid silver;
   border-bottom: 2px solid silver;
+}
+
+@media only screen and (max-width: 900px) {
+  .wrapper {
+    padding: 5px;
+  }
 }
