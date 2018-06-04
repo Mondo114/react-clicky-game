@@ -69,11 +69,22 @@
 
 @media only screen and (max-width: 620px) {
   #title-div {
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 10px;
   }
   
   #title-words {
-    font-size: 40px;
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  #title-div {
+    font-size: 30px;
+    padding-top: 16px;
+  }
+  
+  #title-words {
+    font-size: 30px;
   }
 }
