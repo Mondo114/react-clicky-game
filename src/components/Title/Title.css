@@ -22,3 +22,58 @@
   text-shadow: 2px 2px 1px black;
 }
 
+@media only screen and (max-width: 1165px) {
+  #title-div {
+    font-size: 70px;
+    padding-top: 10px;
+  }
+  
+  #title-words {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  #title-div {
+    font-size: 60px;
+    padding-top: 15px;
+  }
+  
+  #title-words {
+    font-size: 60px;
+    text-shadow: 2px 1px 1px black;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #title-div {
+    font-size: 50px;
+    padding-top: 22px;
+  }
+  
+  #title-words {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #title-div {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+  
+  #title-words {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  #title-div {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+  
+  #title-words {
+    font-size: 40px;
+  }
+}

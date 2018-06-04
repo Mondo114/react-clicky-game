@@ -67,3 +67,33 @@ html, body, #root {
   background-size: cover;
   border: 3px solid silver;
 }
+
+@media only screen and (max-width: 1165px) {
+  .scoreSummary{
+    font-size: 25px;	
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .scoreSummary{
+    font-size: 22px;	
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .scoreSummary{
+    font-size: 20px;	
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .scoreSummary{
+    font-size: 18px;	
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .scoreSummary{
+    font-size: 16px;	
+  }
+}
