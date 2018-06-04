@@ -65,3 +65,9 @@
     width: 90px;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .card {
+    width: 75px;
+  }
+}
