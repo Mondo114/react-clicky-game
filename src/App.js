@@ -8,7 +8,7 @@ import "./App.css";
 
 let correctGuesses = 0;
 let bestScore = 0;
-let clickMessage = "Welcome to the shindig! Click a character to earn points. Remember which character you selected because if you pick the same character twice, you'll lose all your points. To win the game, earn 12 points.";
+let clickMessage = "Welcome to the shindig! The object of the game is to click each character once. Remember which character you clicked because all characters will scramble after each click. If you click the same character twice, you'll lose all your points. To win the game, earn 12 points.";
 
 class App extends Component {
     
