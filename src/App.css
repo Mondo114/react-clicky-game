@@ -73,31 +73,4 @@ html, body {
     overflow: auto !important;
     max-height: 100% !important;
   }
-  .scoreSummary{
-    font-size: 25px;	
-  }
-}
-
-@media only screen and (max-width: 1025px) {
-  .scoreSummary{
-    font-size: 22px;	
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .scoreSummary{
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .scoreSummary{
-    font-size: 18px;	
-  }
-}
-
-@media only screen and (max-width: 620px) {
-  .scoreSummary{
-    font-size: 15px;	
-  }
 }
